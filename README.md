@@ -1,57 +1,56 @@
-# Warm-Up
+# Warm-Up 🚀
 
-This repository contains a series of warm-up exercises designed to build the mathematical and programming foundations needed for machine learning and deep learning.
+A collection of warm-up exercises covering:
 
-## Topics
+- Python Programming
+- Linear Algebra
+- Calculus for Machine Learning
+- Numerical Differentiation
+- Matrix Operations
+- Neural Network Fundamentals
 
-- Python fundamentals
-- Linear functions
-- Matrix operations
-- Numerical derivatives
-- Linear models
-- Vectorization
-- Basic neural network concepts
+## Learning Objectives
+
+After completing these exercises, students will be able to:
+
+- Implement linear models from scratch
+- Understand matrix representations
+- Approximate derivatives numerically
+- Explain vectorization and GPU acceleration
+- Build intuition for neural networks
 
 ## Repository Structure
 
 warm-up/
 │
 ├── notebooks/
-│   ├── 01_linear_functions.ipynb
-│   ├── 02_matrix_operations.ipynb
+│   ├── 01_linear_models.ipynb
+│   ├── 02_vectorization.ipynb
 │   ├── 03_numerical_derivatives.ipynb
-│   └── 04_neural_network_basics.ipynb
-│
-├── src/
-│   ├── linear_models.py
-│   ├── derivatives.py
-│   └── utils.py
+│   └── 04_deep_learning_basics.ipynb
 │
 ├── exercises/
-│   ├── exercise_01.py
-│   ├── exercise_02.py
-│   ├── exercise_03.py
+│   ├── exercise_01_linear.py
+│   ├── exercise_02_multivariate.py
+│   ├── exercise_03_derivatives.py
 │   └── solutions/
 │
-├── images/
+├── src/
+│   ├── models/
+│   │   └── linear.py
+│   ├── math/
+│   │   └── derivatives.py
+│   └── utils/
+│       └── helpers.py
+│
+├── assets/
+│   └── figures/
 │
 ├── requirements.txt
-│
 ├── LICENSE
-│
 └── README.md
 
-## Learning Goals
 
-By completing these exercises, you will:
+# Author
 
-- Understand linear models
-- Learn vector and matrix representations
-- Approximate derivatives numerically
-- Understand why matrix multiplication is central to deep learning
-- Build intuition for gradient-based learning
-
-## Requirements
-
-```bash
-pip install -r requirements.txt
+Antonio Navarrete Guzmán
