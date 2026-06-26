@@ -1,56 +1,84 @@
-# Warm-Up 🚀
+# Deep Learning
 
-A collection of warm-up exercises covering:
+This repository contains my implementations, notes, and exercises developed throughout a Deep Learning course. The repository includes practical implementations of fundamental algorithms and concepts using Python and NumPy.
 
-- Python Programming
-- Linear Algebra
-- Calculus for Machine Learning
-- Numerical Differentiation
-- Matrix Operations
-- Neural Network Fundamentals
+## 📚 Topics Covered
 
-## Learning Objectives
+- Mathematical Foundations
+- NumPy for Deep Learning
+- Shallow Neural Networks
+- Deep Neural Networks
+- Matrix Formulation of Neural Networks
+- Activation Functions
+  - ReLU
+  - Sigmoid
+- Gaussian Distribution
+- Bernoulli Distribution
+- Maximum Likelihood Estimation (MLE)
+- Loss Functions
+  - Sum of Squared Errors (SSE)
+  - Negative Log-Likelihood (NLL)
+- Binary Classification
+- Probabilistic Models
+- Optimization Fundamentals
 
-After completing these exercises, students will be able to:
+Additional topics will be added as the course progresses.
 
-- Implement linear models from scratch
-- Understand matrix representations
-- Approximate derivatives numerically
-- Explain vectorization and GPU acceleration
-- Build intuition for neural networks
+---
 
-## Repository Structure
+## 🛠️ Technologies
 
-warm-up/
+- Python 3
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+
+---
+
+## 📂 Repository Structure
+
+```text
+Deep-Learning/
 │
-├── notebooks/
-│   ├── 01_linear_models.ipynb
-│   ├── 02_vectorization.ipynb
-│   ├── 03_numerical_derivatives.ipynb
-│   └── 04_deep_learning_basics.ipynb
-│
-├── exercises/
-│   ├── exercise_01_linear.py
-│   ├── exercise_02_multivariate.py
-│   ├── exercise_03_derivatives.py
-│   └── solutions/
-│
-├── src/
-│   ├── models/
-│   │   └── linear.py
-│   ├── math/
-│   │   └── derivatives.py
-│   └── utils/
-│       └── helpers.py
-│
-├── assets/
-│   └── figures/
-│
-├── requirements.txt
-├── LICENSE
+├── 1.1 Math Warmup.ipynb
+├── 1.2 Regresion.ipynb
+├── 2.1 Shallow Neural Networks.ipynb
+├── 2.2 Composing Neural Networks.ipynb
+├── 2.3 Deep Neural Networks.ipynb
+├── 2.4.1 Loss function I.ipynb
+├── 2.4.2 Loss function II.ipynb
+├── TAREA 2.4.3 Loss function I.ipynb
+├── 3.1 Optimizacion_I.ipynb
+├── 4.1 Descenso_Gradiente.ipynb
+├── 4.2 Descenso_Gradiente_Estocastico.ipynb
+├── 4.3 Momentum.ipynb
+├── 4.4 Adam.ipynb
 └── README.md
+```
 
+---
 
-# Author
+## 🎯 Learning Objectives
 
-Antonio Navarrete Guzmán
+- Build neural networks from scratch.
+- Understand matrix-based implementations of neural networks.
+- Implement common activation functions.
+- Develop probabilistic models for machine learning.
+- Implement and analyze different loss functions.
+- Understand binary classification using probabilistic approaches.
+- Gain practical experience with Deep Learning algorithms using Python.
+
+---
+
+## 👨‍💻 Author
+
+**Dr. Antonio Navarrete Guzmán**
+
+Professor and Researcher
+
+- Instituto Tecnológico de Tepic
+- Universidad Autónoma de Nayarit
+
+---
+
+This repository is continuously updated as new topics are covered throughout the course.
